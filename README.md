@@ -14,15 +14,19 @@ Libraries Used are
 
 
 Steps and thought process used behind the execution
+
 Step 1: Downloaded messy and large aviation data from kaggle
+
 Step 2: Loaded the csv data into pandas dataframe
+
 Step 3: Data Pre-processing like checking the null value, checking the shape of data, 	 	  
         finding the total number and percentage of null data so that if the null value is 	  
         greater than 20%, then the column was dropped, as the dataset was large, rows with         	  
         the null value was dropped
+	
 Step 4: With date in column called Flight_Date(FL_DATE), a new column with Year, Quarter, 
-	      Month was created. For this the data type of FL_DATA was object so it was converted 
-	      into datetime datatype.
+	Month was created. For this the data type of FL_DATA was object so it was converted 
+	into datetime datatype.
 Step 5: As the dataset was very large and the system crashed time and again so numbers of rows 	  
         was dropped and reduced to less than 15000.
 Step 6: Using MySQL Workbench, a database was created in my local system.
